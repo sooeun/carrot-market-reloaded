@@ -13,7 +13,7 @@ export default function Login() {
                 <FormInput required type="email" placeholder="이메일" errors={[]} />
                 <FormInput required type="password" placeholder="비밀번호" errors={[]} />
 
-                <FormButton loading={false} text={"git test"} />
+                <FormButton loading={false} text={"로그인"} />
             </form>
             <SocialLogin />
         </div>
