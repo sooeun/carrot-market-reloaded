@@ -28,6 +28,7 @@ export default function SMSLogin() {
                         placeholder="인증 코드"
                         min={100000}
                         max={999999}
+                        errors={state.error?.formErrors}
                     />
                 ) : (
                     <Input
